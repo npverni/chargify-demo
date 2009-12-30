@@ -1,6 +1,6 @@
 h1. Haycamp - a Chargify demo
 
-Haycamp is a demo using the Chargify API
+Haycamp is a demo using the Chargify API. You can view the live demo here: "http://haycamp.heroku.com":http://haycamp.heroku.com
 
 h2. Setup
 
@@ -13,7 +13,7 @@ rake db:migrate
 
 h3. Modify config/initializers/chargify.rb
 
-Add your subdomain and api key credentials to chargify.rb.  For use with heroku you can set ENV variables as such http://docs.heroku.com/config-vars.
+Add your subdomain and api key credentials to chargify.rb.  For use with heroku you can set ENV variables as such "http://docs.heroku.com/config-vars":http://docs.heroku.com/config-vars.
 
 <pre>
 Chargify.configure do |c|
@@ -29,3 +29,4 @@ Add a few products to your chargify test account.  Exact details shouldn't matte
 h4. To-do
 
 Add tests
+
