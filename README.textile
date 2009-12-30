@@ -1,6 +1,6 @@
 h1. Haycamp - a Chargify demo
 
-Haycamp is a demo using the Chargify API. You can view the live demo here: "http://haycamp.heroku.com":http://haycamp.heroku.com
+Haycamp is a sample Ruby on Rails app using the "Chargify":http://chargify.com API. You can view the live demo here: "http://haycamp.heroku.com":http://haycamp.heroku.com
 
 h2. Setup
 
