@@ -1,0 +1,66 @@
+--- !ruby/object:Gem::Specification 
+name: chargify_api_ares
+version: !ruby/object:Gem::Version 
+  version: 0.2.1
+platform: ruby
+authors: 
+- Michael Klett
+- The Lab Rats @ Phase Two Labs
+autorequire: 
+bindir: bin
+cert_chain: []
+
+date: 2009-12-09 00:00:00 -05:00
+default_executable: 
+dependencies: []
+
+description: ""
+email: mklett@grasshopper.com
+executables: []
+
+extensions: []
+
+extra_rdoc_files: 
+- LICENSE.txt
+- README.md
+files: 
+- .gitignore
+- LICENSE.txt
+- README.md
+- Rakefile
+- VERSION
+- chargify_api_ares.gemspec
+- lib/chargify_api_ares.rb
+- samples/customers.rb
+- samples/products.rb
+- samples/subscriptions.rb
+has_rdoc: true
+homepage: http://github.com/grasshopperlabs/chargify_api_ares
+licenses: []
+
+post_install_message: 
+rdoc_options: 
+- --charset=UTF-8
+require_paths: 
+- lib
+required_ruby_version: !ruby/object:Gem::Requirement 
+  requirements: 
+  - - ">="
+    - !ruby/object:Gem::Version 
+      version: "0"
+  version: 
+required_rubygems_version: !ruby/object:Gem::Requirement 
+  requirements: 
+  - - ">="
+    - !ruby/object:Gem::Version 
+      version: "0"
+  version: 
+requirements: []
+
+rubyforge_project: 
+rubygems_version: 1.3.5
+signing_key: 
+specification_version: 3
+summary: A Chargify API wrapper for Ruby using ActiveResource
+test_files: []
+

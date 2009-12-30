@@ -1,0 +1,12 @@
+<% if signed_in? %>
+	Hey, <%= current_user.first_name %>!
+	<br />
+	<ul>
+		<li>Plan Type: <%= current_user.subscription.product.name %></li>
+		<li>Subscription ID: <%= current_user.subscription.id %></li>
+		<li>Customer ID: <%= current_user.customer.id %></li>
+	</ul>
+	<%= link_to "Sign Out", "/sign_out" %>
+<% else %>
+	<%= link_to 'Pricing &amp Signup', products_path %>
+<% end %>

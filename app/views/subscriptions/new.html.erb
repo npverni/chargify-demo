@@ -1,0 +1,50 @@
+<h2>Signup: <%= h @product.name %> Plan</h2>
+
+<% form_for @user, :url => product_subscriptions_path(@product), :html => {:method => :post} do |form| %>
+
+	<%= form.error_messages %>
+	
+	<div class="fields">
+		<h3>1. Create your Haycamp account</h3>
+		<fieldset>
+			<%= form.label :email %>
+			<%= form.text_field :email %>		
+		
+			<%= form.label :first_name %>
+			<%= form.text_field :first_name %>		
+
+			<%= form.label :last_name %>
+			<%= form.text_field :last_name %>		
+
+			<%= form.label :password %>
+			<%= form.password_field :password %>		
+
+			<%= form.label :password_confirmation, "Confirm password" %>
+			<%= form.password_field :password_confirmation %>					
+		</fieldset>		
+	</div>
+	
+	<div class="fields">
+		<h3>2. Enter your billing information</h3>
+		<fieldset>
+			<%= form.label :credit_card_number, "Credit Card Number<br /><em>(use '1' for testing)</em>" %>
+			<%= form.text_field :credit_card_number %>
+
+			<%= form.label :cvv %>
+			<%= form.text_field :cvv %>
+
+			<%= form.label :expiration_month %>
+			<%= form.text_field :expiration_month %>
+
+			<%= form.label :expiration_year %>
+			<%= form.text_field :expiration_year %>
+		</fieldset>
+	</div>
+	
+	<div class="fields">
+		<h3>3. Submit!</h3>
+		<%= form.submit "Submit", :class => "big" %>
+	</div>
+	
+	<br style="clear:both" />
+<% end %>

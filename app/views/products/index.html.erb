@@ -1,0 +1,7 @@
+<% @products.each do |product| %>
+	<h2><%= h product.name %></h2>
+	<p>
+		<%= h product.description %>
+		<%= link_to "Sign Up", new_product_subscription_path(product) %>
+	</p>	
+<% end %>
