@@ -1,12 +1,11 @@
 h1. Haycamp - a Chargify demo
 
-h2. About
-
 Haycamp is a demo using the Chargify 
 
 h2. Setup
 
 h3. Create Database
+
 <pre>
 rake db:create:all
 rake db:migrate
@@ -15,6 +14,7 @@ rake db:migrate
 h3. Modify config/initializers/chargify.rb
 
 Add your subdomain and api key credentials to chargify.rb.  For use with heroku you can set ENV variables as such http://docs.heroku.com/config-vars.
+
 <pre>
 Chargify.configure do |c|
   c.subdomain = ENV['CHARGIFY_SUBDOMAIN']
