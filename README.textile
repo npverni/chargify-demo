@@ -7,6 +7,7 @@ h2. Setup
 h3. Create Database
 
 <pre>
+cp config/database.yml.sample config/database.yml
 rake db:create:all
 rake db:migrate
 </pre>
