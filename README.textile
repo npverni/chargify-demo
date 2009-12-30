@@ -24,7 +24,7 @@ end
 
 h3.  Add products in Chargify
 
-Add a few products to your chargify test account.  Exact details shouldn't matter.
+Add a few products to your chargify test account.  Similar setup can be seen in the "demo video":http://www.youtube.com/watch?v=C736flHVTIM&feature=player_embedded.
 
 h4. To-do
 
