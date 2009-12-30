@@ -1,6 +1,6 @@
 h1. Haycamp - a Chargify demo
 
-Haycamp is a demo using the Chargify 
+Haycamp is a demo using the Chargify API
 
 h2. Setup
 
