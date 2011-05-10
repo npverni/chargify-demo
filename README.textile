@@ -1,4 +1,4 @@
-h3. Note - This demo is not up to date with the current chargify gem and API. Please see "Chargify":http://docs.chargify.com for the current API documentation.
+h3. Note - This demo is not up to date with the current chargify gem and API. Please see "http://docs.chargify.com":http://docs.chargify.com for the current API documentation.
 
 h1. Haycamp - a Chargify demo
 
